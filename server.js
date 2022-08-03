@@ -12,6 +12,8 @@ app.use(express.json())
 
 app.use(apiRoute)
 
+
+//htmlRoute must be at the bottom so that it can go to apiRoute first if need be and doesn't default to html route everytime
 app.use(htmlRoute)
 
 app.listen(PORT,()=>{

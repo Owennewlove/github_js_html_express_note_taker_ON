@@ -13,6 +13,9 @@ router.post("/api/notes", (req, res)=>{
 
     //db is array, think about array function to add new element or value of an array
     //think about update the revised db with new data into the db.json file
+
+    db.push(req.body)
+    
     
 })
 
