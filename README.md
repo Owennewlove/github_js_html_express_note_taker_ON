@@ -2,7 +2,7 @@
 
 ## Description
 
-The goal was to make a readMe generator with node. Javascript and node were used to make this happen. If node index.js is typed into the terminal than the terminal will prompt questions to create a professional readMe file. Once all of the questions have been answered the readMe will be generated into the ouput folder. 
+The goal was to make a Note application using html, css, javascript, node, and heroku deployment. The page skeleton structure was created with the html, while the css was used for the UI. The javascript was used for functionality and api route creation. The note taker application accepts input through get and post CRUD operations. 
 
 
 
@@ -18,7 +18,7 @@ The goal was to make a readMe generator with node. Javascript and node were used
 
 ## Installation
 
-Type node index.js into the terminal
+Type node server.js into the terminal
 
 ## Usage
 
